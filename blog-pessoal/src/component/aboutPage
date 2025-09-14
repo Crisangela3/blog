@@ -1,0 +1,20 @@
+export default function AboutPage() {
+  return (
+    <div className="prose">
+      <h1 className="text-3xl font-bold">Sobre Mim</h1>
+      <p>
+        Olá! Meu nome é [Seu Nome], e este é um projeto de blog pessoal simples
+        criado para demonstrar os conceitos do Next.js App Router, Server Components e Client Components.
+      </p>
+      <h2 className="text-2xl font-bold mt-6">Contato</h2>
+      <ul>
+        <li>
+          **Email:** [Seu Email]
+        </li>
+        <li>
+          **GitHub:** [Seu GitHub]
+        </li>
+      </ul>
+    </div>
+  );
+}
