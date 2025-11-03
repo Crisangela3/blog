@@ -2,7 +2,7 @@ import LikeButton from '@/components/LikeButton';
 import { notFound } from 'next/navigation';
 
 // Simulação de conteúdo do post, como se viesse de uma API
-const postsContent = {
+const postsContent: Record<string, { title: string; author: string; date: string; content: string }> = {
   'meu-primeiro-post': {
     title: 'Meu Primeiro Post',
     author: 'Seu Nome',

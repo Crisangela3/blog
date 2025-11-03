@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from 'react';
-import { FaHeart } from 'react-icons/fa';
 
 export default function LikeButton() {
   const [likes, setLikes] = useState(0);
@@ -11,7 +10,7 @@ export default function LikeButton() {
       onClick={() => setLikes(likes + 1)}
       className="flex items-center space-x-2 bg-pink-500 text-white font-bold py-2 px-4 rounded-full shadow-lg hover:bg-pink-600 transition-colors"
     >
-      <FaHeart className="text-xl" />
+      <span className="text-xl">❤️</span>
       <span>{likes} Likes</span>
     </button>
   );
