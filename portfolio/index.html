@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio | Angela Cristina</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- ====== HEADER ====== -->
+  <header class="header">
+    <div class="logo">
+      <span class="logo-text">AC</span>
+    </div>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ====== HERO ====== -->
+  <section id="inicio" class="hero">
+    <div class="hero-text">
+      <h1>Olá, eu sou <span>Angela Cristina</span></h1>
+      <p>Desenvolvedora Web apaixonada por criar experiências digitais incríveis e transformar ideias em realidade.</p>
+      <div class="hero-buttons">
+        <a href="#projetos" class="btn">Ver Projetos</a>
+        <a href="#sobre" class="btn-outline">Sobre Mim</a>
+      </div>
+    </div>
+    <div class="hero-decoration">
+      <div class="circle circle-1"></div>
+      <div class="circle circle-2"></div>
+      <div class="circle circle-3"></div>
+    </div>
+  </section>
+
+  <!-- ====== SOBRE ====== -->
+  <section id="sobre" class="section sobre">
+    <h2>Sobre Mim</h2>
+    <div class="sobre-content">
+      <div class="perfil-container">
+        <div class="perfil-bg"></div>
+        <img src="https://i.pravatar.cc/300?img=47" alt="Angela Cristina" class="perfil">
+      </div>
+      <div class="sobre-text">
+        <h3>Quem sou eu?</h3>
+        <p>
+          Sou Angela Cristina, desenvolvedora front-end com paixão por criar interfaces elegantes e funcionais. 
+          Minha jornada na programação começou com a curiosidade de entender como as coisas funcionam na web, 
+          e hoje transformo essa curiosidade em projetos reais.
+        </p>
+        <p>
+          Especializo-me em desenvolvimento front-end, com foco em criar experiências de usuário intuitivas e responsivas. 
+          Acredito que a tecnologia deve ser acessível e bonita, e trabalho constantemente para aprimorar minhas habilidades 
+          e me manter atualizada com as últimas tendências do mercado.
+        </p>
+        <p>
+          Quando não estou codificando, gosto de explorar novas tecnologias, contribuir com a comunidade dev e 
+          compartilhar conhecimento. Estou sempre em busca de novos desafios que me permitam crescer profissionalmente.
+        </p>
+        <div class="skills">
+          <span><i class="fab fa-html5"></i> HTML5</span>
+          <span><i class="fab fa-css3-alt"></i> CSS3</span>
+          <span><i class="fab fa-js"></i> JavaScript</span>
+          <span><i class="fab fa-react"></i> React</span>
+          <span><i class="fab fa-node-js"></i> Node.js</span>
+          <span><i class="fab fa-git-alt"></i> Git</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== PROJETOS ====== -->
+  <section id="projetos" class="section projetos">
+    <h2>Meus Projetos</h2>
+    <div class="grid-projetos">
+      <div class="projeto-card" data-projeto="1">
+        <div class="projeto-img">
+          <img src="https://i.imgur.com/Y1KkS6N.png" alt="Landing Page Criativa">
+          <div class="projeto-overlay">
+            <button class="btn-ver">Ver Detalhes</button>
+          </div>
+        </div>
+        <h3>Landing Page Criativa</h3>
+        <p>Design moderno e responsivo para conversão de visitantes</p>
+      </div>
+      <div class="projeto-card" data-projeto="2">
+        <div class="projeto-img">
+          <img src="https://i.imgur.com/CLwOaQm.png" alt="Dashboard Interativa">
+          <div class="projeto-overlay">
+            <button class="btn-ver">Ver Detalhes</button>
+          </div>
+        </div>
+        <h3>Dashboard Interativa</h3>
+        <p>Painel administrativo com visualização de dados em tempo real</p>
+      </div>
+      <div class="projeto-card" data-projeto="3">
+        <div class="projeto-img">
+          <img src="https://i.imgur.com/Kw9Lr91.png" alt="Portfólio Minimalista">
+          <div class="projeto-overlay">
+            <button class="btn-ver">Ver Detalhes</button>
+          </div>
+        </div>
+        <h3>Portfólio Minimalista</h3>
+        <p>Design clean e elegante focado em conteúdo</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CONTATO ====== -->
+  <section id="contato" class="section contato">
+    <h2>Entre em Contato</h2>
+    <p class="contato-subtitle">Tem algum projeto em mente? Vamos conversar!</p>
+    <form id="formContato">
+      <input type="text" placeholder="Seu Nome" required>
+      <input type="email" placeholder="Seu Email" required>
+      <textarea placeholder="Sua Mensagem..." required></textarea>
+      <button type="submit" class="btn">Enviar Mensagem</button>
+    </form>
+
+    <div class="social">
+      <a href="https://github.com/angelacristina" target="_blank" class="github" title="GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/angelacristina/" target="_blank" class="linkedin" title="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="https://www.instagram.com/angelacristina/" target="_blank" class="instagram" title="Instagram">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="https://wa.me/5511999999999" target="_blank" class="whatsapp" title="WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- ====== MODAL (para os projetos) ====== -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- ====== FOOTER ====== -->
+  <footer>
+    <p>© 2025 | Desenvolvido com <i class="fas fa-heart"></i> por <strong>Angela Cristina</strong></p>
+  </footer>
+</body>
+</html>
